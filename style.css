@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+/*Navbar component*/
+.navbar-brand img{
+    width: 150px;
+    height: 50px;
+
+}
+
+#nav-bar{
+    padding: 0px 50px;
+    /* border-bottom: 5px solid black; */
+    background-color: white;
+    position: -webkit-sticky;
+    
+}
+
+
+
+.nav-list{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(227, 224, 224);
+    font-family: 'Poppins',sans-serif;
+
+
+}
+
+.navbar-res{
+    float: right;
+    text-align: left;
+}
+
+.nav-list li{
+    margin-left: 10px;
+}
+
+.nav-list li a:hover{
+    color: rgb(14, 160, 218);
+}
+
+
+.navbar-nav li a{
+
+    float: right;
+    text-align: left;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+
+}
+
+/*Image SLider*/
+
+
+
+
+.image-fit{
+    /* height: 630px; */
+    width: 100%;
+}
+
+.slider-title{
+    margin-bottom: 455px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+/*About Section*/
+
+#about{
+    margin: 0px 50px;
+    /* border-bottom: 5px solid black; */
+
+}
+
+.about-section{
+    margin-top: 50px;
+}
+.about-image{
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.about-right{
+    margin-top: 68px;
+    padding-left: 30px;
+}
+
+.about-right h3{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+
+.about-right p{
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.about-right button{
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    padding: 10px;
+}
+
+
+
+/*Services Section*/
+
+#services{
+    margin: 0px 50px;
+    /* border-bottom: 5px solid black; */
+    margin-top: 80px;
+}
+
+.services-content{
+  margin-top: 75px;
+}
+
+.services-content h3{
+  text-align: center;
+  font-size: 35px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+
+.services-content p{
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+
+}
+
+.services-cards{
+    margin-top: 50px;
+}
+
+.services-cards-info{
+    border: 2px solid rgb(73, 67, 67);
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.services-cards-info:hover{
+
+    box-shadow: 2px 2px  5px rgb(119, 114, 114);
+
+}
+
+.services-cards-info i{
+    font-size: 40px;
+
+}
+
+.services-cards-info h4{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+    margin-top: 15px;
+}
+
+.services-cards-info p{
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 15px;
+
+}
+
+.services-cards-info button{
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 15px;
+    padding: 10px;
+
+}
+
+
+/*Team Content*/
+
+#team{
+    margin: 0px 50px;
+    /* border-bottom: 5px solid black; */
+    margin-top: 150px;
+}
+
+.team-content{
+  margin-top: 75px;
+}
+
+.team-content h3{
+  text-align: center;
+  font-size: 35px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+
+.team-content p{
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+
+}
+
+.team-cards-info img{
+    width: 50px;
+}
+
+
+.team-cards-info img{
+    width: 130px;
+    height: 123px;
+    border-radius: 50%;
+}
+
+.team-cards{
+    margin-top: 55px;
+}
+
+.team-cards-info{
+    padding: 15px;
+}
+
+.team-cards-info-1 h4{
+    margin-top: 41px;
+}
+.team-cards-info h4{
+    margin-top: 25px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+.team-cards-info p{
+    margin-top: 15px;
+    font-size: 17px;
+    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto',sans-serif;
+}
+.team-cards-info i{
+    font-size: 25px;
+}
+
+
+
+/*Testimonial Content*/
+#testimonials{
+    margin: 0px 50px;
+    /* border-bottom: 5px solid black; */
+    margin-top: 150px;
+}
+
+.testimonial-content{
+  margin-top: 75px;
+}
+
+.testimonial-content h3{
+    text-align: center;
+    font-size: 35px;
+      font-weight: 600;
+      font-family: 'Poppins',sans-serif;
+}
+
+.testimonial-content p{
+      font-size: 17px;
+      font-family: 'Roboto',sans-serif;
+      text-align: center;
+}
+
+.testimonial-cards-info img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.testimonial-cards-info p{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'Roboto',sans-serif;
+
+}
+.testimonial-cards-info {
+    border: 2px solid black;
+    padding: 26px 18px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.testimonial-cards{
+    margin-top: 55px;
+}
+
+.testimonial-name{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+
+.testimonial-text{
+    font-family: 17px;
+    font-weight: 400;
+    font-family: 'Roboto',sans-serif;
+}
+
+.mycontent{
+    margin-top: 40px;
+}
+
+
+
+/*Contact Us Section*/
+
+#contact{
+    margin: 0px 50px;
+    /* border-bottom: 5px solid black; */
+    margin-top: 150px;
+}
+
+.contact-content{
+  margin-top: 75px;
+}
+
+.contact-content h3{
+    text-align: center;
+    font-size: 35px;
+      font-weight: 600;
+      font-family: 'Poppins',sans-serif;
+}
+
+.contact-content p{
+      font-size: 17px;
+      font-family: 'Roboto',sans-serif;
+      text-align: center;
+}
+
+.contact-cards{
+    margin-top: 55px;
+}
+
+.input-form{
+    padding-left: 50px;
+
+}
+
+.contact-button{
+    margin-top: 30px;
+    padding: 13px 16px;
+}
+
+.form-label{
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+
+.map-image{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Footer Section*/
+
+#footer{
+    padding: 25px 50px;
+    /* border-bottom: 5px solid black; */
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+}
+
+.footer-content{
+  margin-top: 75px;
+}
+
+
+
+.location p{
+    padding-right: 105px;
+    padding-left: 14px;
+}
+
+.E-mail p{
+    padding-right: 70px;
+    padding-left: 15px;
+}
+
+.phone p{
+    padding-right: 132px;
+    padding-left: 10px;
+}

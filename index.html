@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project-4</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: rgb(209, 250, 245)">
+    <!--Header Section-->
+    <section id="nav-bar">
+      <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-res" id="navbarNav">
+            <ul class="navbar-nav ms-auto nav-list">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#nav-bar">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">OUR TEAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--Slider section-->
+    <section id="slider">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active image-fit">
+            <img src="./images/slider1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="slider-title">How to make a Website</h5>
+            </div>
+          </div>
+          <div class="carousel-item image-fit">
+            <img src="./images/slider2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="slider-title">Create a Responsive website</h5>
+            </div>
+          </div>
+          <div class="carousel-item image-fit">
+            <img src="./images/slider3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="slider-title">Business Plans</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container-fluid">
+        <div class="about-section">
+          <div class="row">
+            <div class="col-md-5">
+              <img class="about-image" src="./images/about.jpg" alt="" />
+            </div>
+            <div class="col-md-7">
+              <div class="about-right">
+                <h3>We Provide the Best Quality Software Services for You</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  magnam sunt alias omnis accusantium. Dolores tempore est
+                  expedita nemo natus ad similique perferendis deleniti tempora
+                  provident itaque repellendus veritatis harum beatae modi nisi
+                  officia delectus ut dolor atque, voluptas sapiente!
+                  Repellendus veritatis quidem error, nemo quod fugit debitis
+                  enim reprehenderit!
+                </p>
+                <button class="btn btn-primary">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Services Section-->
+
+    <section id="services">
+      <div class="container-fluid">
+        <div class="services-content">
+          <div class="row">
+            <h3>Our Services</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum,
+              nisi.
+            </p>
+          </div>
+        </div>
+        <div class="services-cards">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <div class="services-cards-info">
+                <i class="fa-solid fa-laptop"></i>
+                <h4>Enterprise Application</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis, maxime neque quos harum consequatur placeat?
+                </p>
+                <button class="btn btn-primary">Read More</button>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="services-cards-info">
+                <i class="fa-solid fa-wrench"></i>
+                <h4>Product Engineering</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis, maxime neque quos harum consequatur placeat?
+                </p>
+                <button class="btn btn-primary">Read More</button>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="services-cards-info">
+                <i class="fa-solid fa-user"></i>
+                <h4>Staff Augmentation</h4>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis, maxime neque quos harum consequatur placeat?
+                </p>
+                <button class="btn btn-primary">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Team Section-->
+    <section id="team">
+      <div class="container-fluid">
+        <div class="team-content">
+          <div class="row">
+            <h3>Our Team</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum,
+              nisi.
+            </p>
+          </div>
+        </div>
+        <div class="team-cards">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <div class="team-cards-info">
+                <img id="team-img-1" src="./images/ceo.jpg" alt="" />
+                <h4>Krishna Vasudev</h4>
+                <p>
+                  Founder, CEO<br />Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Et, doloribus?
+                </p>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="team-cards-info">
+                <img src="./images/coo.jpg" alt="" />
+                <h4>Mohan Singh</h4>
+                <p>
+                  Founder, COO<br />Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Et, doloribus?
+                </p>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <div class="team-cards-info">
+                <img src="./images/cto.jpg" alt="" />
+                <h4>Madhav Yadav</h4>
+                <p>
+                  Director, CTO<br />Lorem ipsum dolor, sit amet consectetur
+                  adipisicing elit. Et, doloribus?
+                </p>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonials section-->
+    <section id="testimonials">
+      <div class="container-fluid">
+        <div class="testimonial-content">
+          <div class="row">
+            <h3>What People Say About Us?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+              nisi consequatur eaque facere. Excepturi qui, saepe quos modi eos
+              nobis optio ducimus illo laboriosam accusantium.
+            </p>
+          </div>
+        </div>
+        <div class="testimonial-cards">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="testimonial-cards-info">
+                <p class="my-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                  explicabo omnis atque pariatur esse, laborum ratione nisi
+                  dolore debitis tempora, quam doloremque hic in adipisci.
+                </p>
+                <div class="d-md-flex mycontent">
+                  <img src="./images/testimonial1.jpg" alt="" />
+                  <div
+                    class="d-md-flex flex-column justify-content-md-center"
+                    style="padding-left: 25px"
+                  >
+                    <h3 class="testimonial-name">Virat Kohli</h3>
+                    <p class="testimonial-text">Founder at Car Bazzar</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="testimonial-cards-info">
+                <p class="my-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                  explicabo omnis atque pariatur esse, laborum ratione nisi
+                  dolore debitis tempora, quam doloremque hic in adipisci.
+                </p>
+                <div class="d-md-flex mycontent">
+                  <img src="./images/testimonial2.jpg" alt="" />
+                  <div
+                    class="d-md-flex flex-column justify-content-md-center"
+                    style="padding-left: 25px"
+                  >
+                    <h3 class="testimonial-name">Rohit Sharma</h3>
+                    <p class="testimonial-text">CTO at Haldiram's</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="testimonial-cards-info">
+                <p class="my-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+                  explicabo omnis atque pariatur esse, laborum ratione nisi
+                  dolore debitis tempora, quam doloremque hic in adipisci.
+                </p>
+                <div class="d-md-flex mycontent">
+                  <img src="./images/testimonial3.jpg" alt="" />
+                  <div
+                    class="d-md-flex flex-column justify-content-md-center"
+                    style="padding-left: 25px"
+                  >
+                    <h3 class="testimonial-name">Kishan Kale</h3>
+                    <p class="testimonial-text">COO, Appetals Tech</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Contact Us Section-->
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="contact-content">
+          <div class="row">
+            <h3>Contact Us</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
+              numquam, animi sequi similique officia repellendus.
+            </p>
+          </div>
+        </div>
+        <div class="contact-cards">
+          <div class="row">
+            <div class="col-md-6">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.911018577098!2d79.037032!3d21.116113400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c07bbe89a25f%3A0xbe52091de548a0b4!2sOrangebits%20Software%20Technologies%20(India)%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1704879940475!5m2!1sen!2sin"
+                class="map-image"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="col-md-6">
+              <div class="input-form">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label"
+                    >Full Name</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Enter Full Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Example textarea</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                    placeholder="Message"
+                  ></textarea>
+                </div>
+                <div class="mb-3">
+                  <button class="btn btn-primary contact-button">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer Section-->
+    <section id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer-left">
+              <h3>
+                All rights Reserved &copyOrangeBits Software Technologies India
+                Pvt. Ltd.
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-right">
+              <div class="d-md-flex flex-column align-items-end">
+                <div class="location">
+                  <div class="d-md-flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Nagpur Maharashtra</p>
+                  </div>
+                </div>
+                <div class="E-mail">
+                  <div class="d-md-flex">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>contact@orangebits.com</p>
+                  </div>
+                </div>
+                <div class="phone">
+                  <div class="d-md-flex">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+91 1452369875</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/c38b43dc9a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
